@@ -48,20 +48,20 @@ $(document).ready(function(){
         loop: true
     });
 
-    function sendEmail(){
-        Email.send({
-            Host : "smtp.gmail.com",
-            Username : "enquiry152@gmail.com",
-            Password : "OQ72377686sd+-",
-            To : 'syedzulkharnain334@gmail',
-            from : document.getElementById("email").value,
-            Subject : "New Contact from Enquiry",
-            Body :"and this is body"
-        }).then(
-            massage => alert (massage)
-            );
-    }
-    // owl carousel script
+ //   function sendEmail(){
+  //      Email.send({
+    //        Host : "smtp.gmail.com",
+      //      Username : "enquiry152@gmail.com",
+        //    Password : "OQ72377686sd+-",
+          //  To : 'syedzulkharnain334@gmail',
+            //from : document.getElementById("email").value,
+//            Subject : "New Contact from Enquiry",
+//            Body :"and this is body"
+ //       }).then(
+   //         massage => alert (massage)
+    //        );
+   // }
+     owl carousel script
     $('.carousel').owlCarousel({
         margin: 20,
         loop: true,
