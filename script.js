@@ -51,7 +51,7 @@ $(document).ready(function(){
     function sendEmail(){
         Email.send({
             Host : "smtp.gmail.com",
-            Username : "syedzulkharnain9890278513@gmail.com",
+            Username : "enquiry152@gmail.com",
             Password : "OQ72377686sd+-",
             To : 'syedzulkharnain334@gmail',
             from : document.getElementById("email").value,
